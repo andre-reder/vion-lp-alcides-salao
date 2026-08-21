@@ -6,6 +6,7 @@ export default defineConfig({
   integrations: [react()],
   output: 'static',
   trailingSlash: 'never',
+  base: '/vion-lp-alcides-salao',
   vite: {
     plugins: [tailwindcss()],
     build: {
